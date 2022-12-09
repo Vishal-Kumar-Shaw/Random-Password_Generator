@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat:wght@300;400&family=Open+Sans:wght@300&family=Oswald:wght@300&family=PT+Sans&family=Poppins:wght@300;400&family=Raleway:wght@300;400&family=Roboto:wght@300;400&family=Slabo+13px&family=Slabo+27px&family=Source+Sans+Pro:wght@300;400&family=Ubuntu:ital,wght@1,300&family=Varela+Round&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --accent-color: #2294ed;
+    --accent-color-dark: #1d69a3;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--accent-color);
+    color: white;
+}
+.main{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    /* height: 320px; */
+    width: 450px;
+    background-color: var(--accent-color-dark);
+    border-radius: 8px;
+    padding: 20px;
+}
+.output input{
+    width: 100%;
+    border-radius: 8px;
+    padding: 5px;
+    border: none;
+    height: 35px;
+}
+.required {
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.required div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.length input{
+    width: 40px;
+}
+.button button{
+    background-color: rgba(149, 147, 147, 0.259);
+    border: none;
+    width: 100%;
+    height: 30px;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    font-size: larger;
+    
+}
+.button:hover{
+    background-color: var(--accent-color);
+}
+.required{
+    margin-top: 10px;
+}
+input:focus-visible{
+    outline: none;
+}
